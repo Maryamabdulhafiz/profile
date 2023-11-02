@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whole-container {
+  background-color: #39c0b7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+  p {
+    color: #39c0b7;
+  }
+  h4 {
+    color: white;
+  }
+
+  .first-box {
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  .second-box {
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  .third-box {
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  .forth-box {
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+  }
+}
+
+img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+img:hover {
+  border: 5px solid #39c0b7;
+}
+svg {
+  width: 30px;
+}
+svg:hover {
+  transform: scale(2);
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: 100%;
+    background-color: #39c0b7;
+
+    .whole-container {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      margin-top: 50px;
+
+      .first-box {
+        margin-bottom: 20px;
+        padding: 70px;
+      }
+      .second-box {
+        margin-bottom: 20px;
+        padding: 70px;
+      }
+      .third-box {
+        margin-bottom: 20px;
+        padding: 70px;
+      }
+      .forth-box {
+        margin-bottom: 20px;
+        padding: 70px;
+      }
+    }
+
+    img {
+      width: 140px;
+      height: 140px;
+    }
+
+    svg {
+      width: 35px;
+    }
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  .whole-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+  
+  
+    .first-box {
+      padding: 30px;
+      
+    }
+    .second-box {
+      padding: 30px;
+       
+    }
+    .third-box {
+      padding: 30px;
+      
+    }
+    .forth-box {
+      padding: 30px;
+      
+    }
+  }
+  
+  img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  svg {
+    width: 20px;
+  }
+}
